@@ -22,13 +22,9 @@ const productos = [
 ];
 
 const productToHTML = (producto) => {
-    let texto = "<div>";
-    texto += "<h1>" + producto.nombre + "</h1>";
-    texto += "<p>" + producto.precio + "</p>";
-    texto += "</div>";
-
+    let texto = `<div><h1>${producto.nombre}</h1><p>${producto.precio}</p></div>`;
     return texto;
-};
+}
 
 let catalogoHTML = "";
 
