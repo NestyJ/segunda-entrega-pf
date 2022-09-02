@@ -1,0 +1,12 @@
+.estilo{
+    background-color: rgb(250, 32, 32);
+    opacity: 80%;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
